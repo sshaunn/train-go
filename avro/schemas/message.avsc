@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "MessageEvent",
+  "namespace": "ms1.avro",
+  "fields": [
+    {
+      "name": "filename",
+      "type": "string",
+      "doc": "this is the file name info",
+      "default": "null"
+    },
+    {
+      "name": "filepath",
+      "type": "string",
+      "doc": "this is the file path info from aws s3 bucket url",
+      "default": "null"
+    }
+  ]
+}
